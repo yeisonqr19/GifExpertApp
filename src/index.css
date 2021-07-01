@@ -14,13 +14,24 @@ input {
 }
 
 .card {
-  align-content: center;
+  text-align: center;
   border: 1px solid grey;
   overflow: hidden;
   margin: 10px 0px;
-  width: auto;
+  
 }
 
-img{
-  width: 50%;
+.card p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100%;
 }
