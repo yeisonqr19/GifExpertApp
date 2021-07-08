@@ -26,4 +26,7 @@ describe("Test Para el componente GifGridItem", () => {
     const div = wrapper.find("div");
     expect(div.hasClass("animate__fadeIn")).toEqual(true);
   });
+
+  
+
 });
