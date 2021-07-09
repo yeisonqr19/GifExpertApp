@@ -9,4 +9,7 @@ describe("Pruebas en el componente getGif", () => {
     const gifs = await getGifs("");
     expect(gifs.length).toBe(0);
   });
+
+  
+
 });

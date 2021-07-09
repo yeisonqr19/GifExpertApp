@@ -9,6 +9,7 @@ const AddCategory = ({ setCategories }) => {
   };
 
   const handleSubmit = (e) => {
+    console.log("handleSubmit", inputValue);
     e.preventDefault();
 
     if (inputValue.trim().length > 3) {
@@ -19,6 +20,7 @@ const AddCategory = ({ setCategories }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <p>{inputValue}</p>
       <input type="text" value={inputValue} onChange={handleInputChange} />
     </form>
   );
